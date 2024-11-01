@@ -3,22 +3,6 @@ import java.util.*;
 import java.awt.Point;
 
 public class fileReader {
-    public static class TestCase
-    {
-        int numPoints;
-        List<Point> points = new ArrayList<>();
-
-        public TestCase(int numPoints)
-        {
-            this.numPoints = numPoints;
-        }
-
-        public void addPoint(int x, int y)
-        {
-            points.add(new Point(x, y));
-        }
-    }
-
     public static List<TestCase> readInput(String filePath) throws IOException
     {
         List<TestCase> testCases = new ArrayList<>();
