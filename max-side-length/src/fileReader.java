@@ -1,6 +1,5 @@
 import java.io.*;
 import java.util.*;
-import java.awt.Point;
 
 public class fileReader {
     public static List<TestCase> readInput(String filePath) throws IOException
